@@ -10,3 +10,8 @@ Thumbs.db
 *.egg
 *.egg-info
 /pacur
+/example/httpserver/pacur.json
+*.rpm
+*.deb
+.idea/
+*.iml

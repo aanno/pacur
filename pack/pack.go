@@ -3,8 +3,8 @@ package pack
 import (
 	"strings"
 
-	"github.com/pacur/pacur/constants/v2"
-	"github.com/pacur/pacur/resolver/v2"
+	"github.com/aanno/pacur/constants/v2"
+	"github.com/aanno/pacur/resolver/v2"
 	"github.com/dropbox/godropbox/errors"
 )
 

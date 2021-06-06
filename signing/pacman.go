@@ -1,7 +1,7 @@
 package signing
 
 import (
-	"github.com/pacur/pacur/utils/v2"
+	"github.com/aanno/pacur/utils/v2"
 )
 
 func SignPacman(dir string) (err error) {

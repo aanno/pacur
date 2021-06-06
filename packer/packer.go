@@ -2,11 +2,11 @@ package packer
 
 import (
 	"github.com/dropbox/godropbox/errors"
-	"github.com/pacur/pacur/constants/v2"
-	"github.com/pacur/pacur/debian/v2"
-	"github.com/pacur/pacur/pack/v2"
-	"github.com/pacur/pacur/pacman/v2"
-	"github.com/pacur/pacur/redhat/v2"
+	"github.com/aanno/pacur/constants/v2"
+	"github.com/aanno/pacur/debian/v2"
+	"github.com/aanno/pacur/pack/v2"
+	"github.com/aanno/pacur/pacman/v2"
+	"github.com/aanno/pacur/redhat/v2"
 )
 
 type Packer interface {

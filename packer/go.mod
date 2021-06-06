@@ -1,3 +1,3 @@
-module github.com/pacur/pacur/packer/v2
+module github.com/aanno/pacur/packer/v2
 
 go 1.16

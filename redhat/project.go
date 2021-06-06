@@ -1,8 +1,8 @@
 package redhat
 
 import (
-	"github.com/pacur/pacur/constants/v2"
-	"github.com/pacur/pacur/utils/v2"
+	"github.com/aanno/pacur/constants/v2"
+	"github.com/aanno/pacur/utils/v2"
 	"path/filepath"
 )
 

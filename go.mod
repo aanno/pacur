@@ -21,7 +21,7 @@ require (
     github.com/aanno/pacur/resolver/v2 v2.0.0
 )
 
-replace github.com/aanno/pacur/cmd/v2 => ./cmd
+replace github.com/aanno/pacur/cmd/v2 => ../cmd
 replace github.com/aanno/pacur/builder/v2 => ./builder
 replace github.com/aanno/pacur/constants/v2 => ./constants
 replace github.com/aanno/pacur/mirror/v2 => ./mirror

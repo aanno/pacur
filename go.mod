@@ -21,18 +21,18 @@ require (
     github.com/pacur/pacur/resolver/v2 v2.0.0
 )
 
-replace github.com/pacur/pacur/cmd => ./cmd
-replace github.com/pacur/pacur/builder => ./builder
-replace github.com/pacur/pacur/constants => ./constants
-replace github.com/pacur/pacur/mirror => ./mirror
-replace github.com/pacur/pacur/packer => ./packer
-replace github.com/pacur/pacur/parse => ./parse
-replace github.com/pacur/pacur/debian => ./debian
-replace github.com/pacur/pacur/pack => ./pack
-replace github.com/pacur/pacur/pacman => ./pacman
-replace github.com/pacur/pacur/project => ./project
-replace github.com/pacur/pacur/redhat => ./redhat
-replace github.com/pacur/pacur/signing => ./signing
-replace github.com/pacur/pacur/source => ./source
-replace github.com/pacur/pacur/utils => ./utils
-replace github.com/pacur/pacur/resolver => ./resolver
+replace github.com/pacur/pacur/cmd/v2 => ./cmd
+replace github.com/pacur/pacur/builder/v2 => ./builder
+replace github.com/pacur/pacur/constants/v2 => ./constants
+replace github.com/pacur/pacur/mirror/v2 => ./mirror
+replace github.com/pacur/pacur/packer/v2 => ./packer
+replace github.com/pacur/pacur/parse/v2 => ./parse
+replace github.com/pacur/pacur/debian/v2 => ./debian
+replace github.com/pacur/pacur/pack/v2 => ./pack
+replace github.com/pacur/pacur/pacman/v2 => ./pacman
+replace github.com/pacur/pacur/project/v2 => ./project
+replace github.com/pacur/pacur/redhat/v2 => ./redhat
+replace github.com/pacur/pacur/signing/v2 => ./signing
+replace github.com/pacur/pacur/source/v2 => ./source
+replace github.com/pacur/pacur/utils/v2 => ./utils
+replace github.com/pacur/pacur/resolver/v2 => ./resolver

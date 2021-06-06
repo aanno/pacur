@@ -7,7 +7,7 @@ import (
 	"crypto/sha512"
 	"fmt"
 	"github.com/dropbox/godropbox/errors"
-	"github.com/pacur/pacur/utils"
+	"github.com/pacur/pacur/utils/v2"
 	"hash"
 	"io"
 	"os"

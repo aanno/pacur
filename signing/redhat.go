@@ -3,7 +3,7 @@ package signing
 import (
 	"fmt"
 	"github.com/dropbox/godropbox/errors"
-	"github.com/pacur/pacur/utils"
+	"github.com/pacur/pacur/utils/v2"
 	"os/user"
 	"path/filepath"
 )

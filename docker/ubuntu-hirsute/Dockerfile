@@ -14,7 +14,7 @@ ENV GOPATH /go
 ENV PATH /usr/local/go/bin:$PATH:/go/bin
 # ENV GO111MODULE off
 
-RUN go get github.com/aanno/pacur@aanno-develop
+RUN go get github.com/aanno/pacur@aanno
 
 ENTRYPOINT ["pacur"]
 CMD ["build", "ubuntu-hirsute"]

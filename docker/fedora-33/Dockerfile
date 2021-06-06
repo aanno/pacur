@@ -1,9 +1,9 @@
 FROM docker.io/fedora:33
 MAINTAINER Pacur <contact@pacur.org>
 
-RUN yum -y upgrade
-RUN yum -y groupinstall 'Development Tools'
-RUN yum -y install tar expect gpg rpm-build rpm-sign openssl createrepo rsync make automake gcc wget zip git mercurial
+RUN dnf -y upgrade
+RUN dnf -y groupinstall 'Development Tools'
+RUN dnf -y install tar expect gpg rpm-build rpm-sign openssl createrepo rsync make automake gcc wget zip git mercurial
 
 RUN wget https://golang.org/dl/go1.16.5.linux-amd64.tar.gz
 RUN echo "b12c23023b68de22f74c0524f10b753e7b08b1504cb7e417eccebdd3fae49061 go1.16.5.linux-amd64.tar.gz" | sha256sum -c -

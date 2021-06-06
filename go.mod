@@ -1,4 +1,4 @@
-module github.com/pacur/pacur/v2
+module github.com/aanno/pacur/v2
 
 go 1.16
 

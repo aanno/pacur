@@ -15,7 +15,7 @@ ENV GOPATH /go
 ENV PATH /usr/local/go/bin:$PATH:/go/bin
 # ENV GO111MODULE off
 
-RUN go get github.com/pacur/pacur
+RUN go get github.com/aanno/pacur@aanno-develop
 
 ENTRYPOINT ["pacur"]
 CMD ["build", "amazonlinux-2"]

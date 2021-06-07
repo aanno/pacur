@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	err := cmd.Parse()
+	err := command.Parse()
 	if err != nil {
 		panic(err)
 	}

@@ -7,3 +7,4 @@ require (
 )
 
 // replace github.com/aanno/pacur/v2 => ./
+replace github.com/dropbox/godropbox => ./godropbox

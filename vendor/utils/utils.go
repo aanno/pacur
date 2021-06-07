@@ -2,7 +2,7 @@ package utils
 
 import (
 	"github.com/dropbox/godropbox/errors"
-	"github.com/aanno/pacur/constants/v2"
+	"constants"
 	"math/rand"
 	"os"
 	"os/exec"

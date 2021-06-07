@@ -3,9 +3,9 @@ package debian
 import (
 	"fmt"
 	"github.com/dropbox/godropbox/errors"
-	"github.com/aanno/pacur/constants/v2"
-	"github.com/aanno/pacur/pack/v2"
-	"github.com/aanno/pacur/utils/v2"
+	"constants"
+	"pack"
+	"utils"
 	"os"
 	"path/filepath"
 	"strings"

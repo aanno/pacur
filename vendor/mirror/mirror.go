@@ -3,9 +3,9 @@ package mirror
 import (
 	"fmt"
 	"github.com/dropbox/godropbox/errors"
-	"github.com/aanno/pacur/constants/v2"
-	"github.com/aanno/pacur/signing/v2"
-	"github.com/aanno/pacur/utils/v2"
+	"constants"
+	"signing"
+	"utils"
 	"path/filepath"
 )
 

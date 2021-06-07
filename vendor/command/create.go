@@ -2,7 +2,7 @@ package cmd
 
 import (
 	"flag"
-	"github.com/aanno/pacur/mirror/v2"
+	"mirror"
 	"strings"
 )
 

@@ -1,8 +1,8 @@
 package pacman
 
 import (
-	"github.com/aanno/pacur/constants/v2"
-	"github.com/aanno/pacur/utils/v2"
+	"constants"
+	"utils"
 	"path/filepath"
 )
 

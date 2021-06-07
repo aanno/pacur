@@ -3,8 +3,8 @@ package parse
 import (
 	"bufio"
 	"github.com/dropbox/godropbox/errors"
-	"github.com/aanno/pacur/pack/v2"
-	"github.com/aanno/pacur/utils/v2"
+	"pack"
+	"utils"
 	"path/filepath"
 	"regexp"
 	"strings"

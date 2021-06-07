@@ -2,7 +2,7 @@ package signing
 
 import (
 	"github.com/dropbox/godropbox/errors"
-	"github.com/aanno/pacur/utils/v2"
+	"utils"
 	"strings"
 )
 

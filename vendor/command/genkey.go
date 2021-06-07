@@ -3,7 +3,7 @@ package cmd
 import (
 	"flag"
 	"github.com/dropbox/godropbox/errors"
-	"github.com/aanno/pacur/signing/v2"
+	"signing"
 	"strings"
 )
 

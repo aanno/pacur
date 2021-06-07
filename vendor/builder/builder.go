@@ -2,9 +2,9 @@ package builder
 
 import (
 	"fmt"
-	"github.com/aanno/pacur/pack/v2"
-	"github.com/aanno/pacur/source/v2"
-	"github.com/aanno/pacur/utils/v2"
+	"pack"
+	"source"
+	"utils"
 	"os"
 	"path/filepath"
 )

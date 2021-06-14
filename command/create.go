@@ -2,7 +2,7 @@ package command
 
 import (
 	"flag"
-	"mirror"
+	"../mirror"
 	"strings"
 )
 

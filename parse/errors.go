@@ -1,7 +1,7 @@
 package parse
 
 import (
-	"github.com/dropbox/godropbox/errors"
+	"../godropbox/errors"
 )
 
 type SyntaxError struct {

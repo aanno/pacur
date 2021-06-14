@@ -1,8 +1,8 @@
 package redhat
 
 import (
-	"constants"
-	"utils"
+	"../constants"
+	"../utils"
 	"path/filepath"
 )
 

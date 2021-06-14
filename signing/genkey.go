@@ -2,7 +2,7 @@ package signing
 
 import (
 	"fmt"
-	"utils"
+	"../utils"
 	"path/filepath"
 )
 

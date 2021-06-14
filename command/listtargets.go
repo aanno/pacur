@@ -2,7 +2,7 @@ package command
 
 import (
 	"fmt"
-	"constants"
+	"../constants"
 )
 
 func ListTargets() (_ error) {

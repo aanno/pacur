@@ -2,10 +2,9 @@ package pack
 
 import (
 	"strings"
-
-	"constants"
-	"resolver"
-	"github.com/dropbox/godropbox/errors"
+	"../constants"
+	"../resolver"
+	"../godropbox/errors"
 )
 
 type Pack struct {

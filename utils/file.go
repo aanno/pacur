@@ -2,7 +2,7 @@ package utils
 
 import (
 	"fmt"
-	"github.com/dropbox/godropbox/errors"
+	"../godropbox/errors"
 	"io/ioutil"
 	"os"
 	"path/filepath"

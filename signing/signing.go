@@ -1,8 +1,8 @@
 package signing
 
 import (
-	"github.com/dropbox/godropbox/errors"
-	"utils"
+	"../godropbox/errors"
+	"../utils"
 	"strings"
 )
 

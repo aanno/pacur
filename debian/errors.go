@@ -1,7 +1,7 @@
 package debian
 
 import (
-	"github.com/dropbox/godropbox/errors"
+	"../godropbox/errors"
 )
 
 type BuildError struct {

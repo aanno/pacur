@@ -2,10 +2,10 @@ package debian
 
 import (
 	"fmt"
-	"github.com/dropbox/godropbox/errors"
-	"constants"
-	"pack"
-	"utils"
+	"../godropbox/errors"
+	"../constants"
+	"../pack"
+	"../utils"
 	"os"
 	"path/filepath"
 	"strings"

@@ -2,9 +2,9 @@ package command
 
 import (
 	"flag"
-	"builder"
-	"packer"
-	"parse"
+	"../builder"
+	"../packer"
+	"../parse"
 	"strings"
 )
 

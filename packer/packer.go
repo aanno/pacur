@@ -1,12 +1,12 @@
 package packer
 
 import (
-	"github.com/dropbox/godropbox/errors"
-	"constants"
-	"debian"
-	"pack"
-	"pacman"
-	"redhat"
+	"../godropbox/errors"
+	"../constants"
+	"../debian"
+	"../pack"
+	"../pacman"
+	"../redhat"
 )
 
 type Packer interface {

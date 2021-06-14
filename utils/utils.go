@@ -1,8 +1,8 @@
 package utils
 
 import (
-	"github.com/dropbox/godropbox/errors"
-	"constants"
+	"../godropbox/errors"
+	"../constants"
 	"math/rand"
 	"os"
 	"os/exec"

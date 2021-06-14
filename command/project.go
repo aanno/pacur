@@ -2,8 +2,8 @@ package command
 
 import (
 	"flag"
-	"github.com/dropbox/godropbox/errors"
-	"project"
+	"../godropbox/errors"
+	"../project"
 	"os"
 )
 

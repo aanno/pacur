@@ -1,7 +1,7 @@
 package main
 
 import (
-	"command"
+	"./command"
 )
 
 func main() {

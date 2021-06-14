@@ -2,9 +2,9 @@ package builder
 
 import (
 	"fmt"
-	"pack"
-	"source"
-	"utils"
+	"../pack"
+	"../source"
+	"../utils"
 	"os"
 	"path/filepath"
 )

@@ -1,7 +1,7 @@
 package builder
 
 import (
-	"utils"
+	"../utils"
 )
 
 func createScript(path string, cmds []string) (err error) {

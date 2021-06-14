@@ -2,9 +2,9 @@ package pacman
 
 import (
 	"fmt"
-	"constants"
-	"pack"
-	"utils"
+	"../constants"
+	"../pack"
+	"../utils"
 	"os"
 	"path/filepath"
 	"strconv"

@@ -1,7 +1,7 @@
 package signing
 
 import (
-	"utils"
+	"../utils"
 )
 
 func SignPacman(dir string) (err error) {

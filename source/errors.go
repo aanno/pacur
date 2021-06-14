@@ -1,7 +1,7 @@
 package source
 
 import (
-	"github.com/dropbox/godropbox/errors"
+	"../godropbox/errors"
 )
 
 type GetError struct {

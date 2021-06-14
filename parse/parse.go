@@ -2,9 +2,9 @@ package parse
 
 import (
 	"bufio"
-	"github.com/dropbox/godropbox/errors"
-	"pack"
-	"utils"
+	"../godropbox/errors"
+	"../pack"
+	"../utils"
 	"path/filepath"
 	"regexp"
 	"strings"

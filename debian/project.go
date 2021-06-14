@@ -1,8 +1,8 @@
 package debian
 
 import (
-	"constants"
-	"utils"
+	"../constants"
+	"../utils"
 	"path/filepath"
 )
 

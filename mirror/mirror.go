@@ -2,10 +2,10 @@ package mirror
 
 import (
 	"fmt"
-	"github.com/dropbox/godropbox/errors"
-	"constants"
-	"signing"
-	"utils"
+	"../godropbox/errors"
+	"../constants"
+	"../signing"
+	"../utils"
 	"path/filepath"
 )
 

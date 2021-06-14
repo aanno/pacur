@@ -1,8 +1,8 @@
 package pacman
 
 import (
-	"constants"
-	"utils"
+	"../constants"
+	"../utils"
 	"path/filepath"
 )
 

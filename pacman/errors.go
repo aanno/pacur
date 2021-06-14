@@ -1,7 +1,7 @@
 package pacman
 
 import (
-	"github.com/dropbox/godropbox/errors"
+	"../godropbox/errors"
 )
 
 type BuildError struct {

@@ -1,7 +1,7 @@
 package signing
 
 import (
-	"../godropbox/errors"
+	"github.com/dropbox/godropbox/errors"
 )
 
 type LookupError struct {

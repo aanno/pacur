@@ -1,7 +1,7 @@
 package utils
 
 import (
-	"../godropbox/errors"
+	"github.com/dropbox/godropbox/errors"
 )
 
 type HttpError struct {

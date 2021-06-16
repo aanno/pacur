@@ -1,7 +1,7 @@
 package packer
 
 import (
-	"../godropbox/errors"
+	"github.com/dropbox/godropbox/errors"
 )
 
 type UnknownSystem struct {

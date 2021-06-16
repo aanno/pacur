@@ -1,7 +1,7 @@
 package utils
 
 import (
-	"../godropbox/errors"
+	"github.com/dropbox/godropbox/errors"
 	"os"
 	"os/exec"
 )

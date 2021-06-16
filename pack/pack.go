@@ -2,9 +2,9 @@ package pack
 
 import (
 	"strings"
-	"../constants"
-	"../resolver"
-	"../godropbox/errors"
+	"github.com/aanno/pacur/v2/constants"
+	"github.com/aanno/pacur/v2/resolver"
+	"github.com/dropbox/godropbox/errors"
 )
 
 type Pack struct {

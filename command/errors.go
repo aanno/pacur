@@ -1,7 +1,7 @@
 package command
 
 import (
-	"../godropbox/errors"
+	"github.com/dropbox/godropbox/errors"
 )
 
 type FileError struct {

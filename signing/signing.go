@@ -1,8 +1,8 @@
 package signing
 
 import (
-	"../godropbox/errors"
-	"../utils"
+	"github.com/dropbox/godropbox/errors"
+	"github.com/aanno/pacur/v2/utils"
 	"strings"
 )
 

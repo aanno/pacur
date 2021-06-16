@@ -1,8 +1,8 @@
 package utils
 
 import (
-	"../godropbox/errors"
-	"../constants"
+	"github.com/dropbox/godropbox/errors"
+	"github.com/aanno/pacur/v2/constants"
 	"math/rand"
 	"os"
 	"os/exec"

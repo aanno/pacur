@@ -2,8 +2,8 @@ package signing
 
 import (
 	"fmt"
-	"../godropbox/errors"
-	"../utils"
+	"github.com/dropbox/godropbox/errors"
+	"github.com/aanno/pacur/v2/utils"
 	"os/user"
 	"path/filepath"
 )

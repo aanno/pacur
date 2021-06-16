@@ -3,7 +3,7 @@ package constants
 import (
 	"strings"
 
-	"../godropbox/container/set"
+	"github.com/dropbox/godropbox/container/set"
 )
 
 const (

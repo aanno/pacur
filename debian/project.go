@@ -1,8 +1,8 @@
 package debian
 
 import (
-	"../constants"
-	"../utils"
+	"github.com/aanno/pacur/v2/constants"
+	"github.com/aanno/pacur/v2/utils"
 	"path/filepath"
 )
 

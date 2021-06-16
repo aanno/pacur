@@ -7,11 +7,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"../godropbox/container/set"
-	"../godropbox/errors"
-	"../constants"
-	"../pack"
-	"../utils"
+	"github.com/dropbox/godropbox/container/set"
+	"github.com/dropbox/godropbox/errors"
+	"github.com/aanno/pacur/v2/constants"
+	"github.com/aanno/pacur/v2/pack"
+	"github.com/aanno/pacur/v2/utils"
 )
 
 type Redhat struct {

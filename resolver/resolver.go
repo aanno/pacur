@@ -3,7 +3,7 @@ package resolver
 import (
 	"container/list"
 	"fmt"
-	"../godropbox/errors"
+	"github.com/dropbox/godropbox/errors"
 	"regexp"
 	"strings"
 )

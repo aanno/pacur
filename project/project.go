@@ -3,12 +3,12 @@ package project
 import (
 	"encoding/json"
 	"fmt"
-	"../godropbox/errors"
-	"../constants"
-	"../debian"
-	"../pacman"
-	"../redhat"
-	"../utils"
+	"github.com/dropbox/godropbox/errors"
+	"github.com/aanno/pacur/v2/constants"
+	"github.com/aanno/pacur/v2/debian"
+	"github.com/aanno/pacur/v2/pacman"
+	"github.com/aanno/pacur/v2/redhat"
+	"github.com/aanno/pacur/v2/utils"
 	"path/filepath"
 	"strings"
 )

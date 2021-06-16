@@ -2,8 +2,8 @@ package command
 
 import (
 	"flag"
-	"../godropbox/errors"
-	"../utils"
+	"github.com/dropbox/godropbox/errors"
+	"github.com/aanno/pacur/v2/utils"
 )
 
 func Parse() (err error) {

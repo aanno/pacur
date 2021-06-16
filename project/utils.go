@@ -1,9 +1,9 @@
 package project
 
 import (
-	"../godropbox/container/set"
-	"../constants"
-	"../parse"
+	"github.com/dropbox/godropbox/container/set"
+	"github.com/aanno/pacur/v2/constants"
+	"github.com/aanno/pacur/v2/parse"
 	"strings"
 )
 

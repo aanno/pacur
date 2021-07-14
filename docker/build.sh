@@ -12,7 +12,7 @@ rm v2.tar.xz || true
 tar cvhJ -C .. -f v2.tar.xz v2/
 
 #for dir in */ ; do
-for dir in fedora-34/ ; do
+for dir in fedora-34/ ubuntu-hirsute/ ; do
     cp go1.16.5.linux-amd64.tar.gz "$dir"
     cp v2.tar.xz "$dir"
     cd "$dir"

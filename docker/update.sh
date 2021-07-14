@@ -7,9 +7,13 @@ if [ ! -f go1.16.5.linux-amd64.tar.gz ]; then
     | sha256sum -c -
 fi
 
+rm v2.tar.xz || true
+tar cvhJ -C .. -f v2.tar.xz v2/
+
 # for dir in */ ; do
 for dir in fedora-34/ ; do
     cp go1.16.5.linux-amd64.tar.gz "$dir"
+    cp v2.tar.xz "$dir"
     cd "$dir"
     sed -i -e "s|go get github.com/aanno/pacur@aanno-develop.*|go get github.com/aanno/pacur@aanno-develop # $(date)|g" Dockerfile
     podman build --rm -t "pacur/${dir::-1}" .

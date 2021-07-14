@@ -15,9 +15,7 @@ RUN echo "fastestmirror=1" >>/etc/dnf/dnf.conf; \
   && dnf clean all \
   && mkdir -p /go/bin /go/pkg/mod/cache \
   && cd /tmp/v2 \
-  && go build \
-  && mv pacur /go/bin/ \
-  && cd / \
+  && go install \
   && rm -rf /tmp/v2
 
 # RUN go get github.com/aanno/pacur@aanno

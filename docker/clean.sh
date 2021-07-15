@@ -1,97 +1,97 @@
-sudo podman rm $(sudo podman ps -a -q)
+podman rm $(podman ps -a -q)
 
-sudo podman rmi pacur/archlinux
-sudo podman rmi pacur/amazonlinux-2016.09
-sudo podman rmi pacur/amazonlinux-2017.03
-sudo podman rmi pacur/amazonlinux-2017.09
-sudo podman rmi pacur/amazonlinux-2017.12
-sudo podman rmi pacur/amazonlinux-1
-sudo podman rmi pacur/amazonlinux-2
-sudo podman rmi pacur/centos-6
-sudo podman rmi pacur/centos-7
-sudo podman rmi pacur/centos-8
-sudo podman rmi pacur/debian-jessie
-sudo podman rmi pacur/debian-stretch
-sudo podman rmi pacur/debian-wheezy
-sudo podman rmi pacur/debian-buster
-sudo podman rmi pacur/fedora-21
-sudo podman rmi pacur/fedora-22
-sudo podman rmi pacur/fedora-23
-sudo podman rmi pacur/fedora-24
-sudo podman rmi pacur/fedora-25
-sudo podman rmi pacur/fedora-26
-sudo podman rmi pacur/fedora-27
-sudo podman rmi pacur/fedora-28
-sudo podman rmi pacur/fedora-29
-sudo podman rmi pacur/fedora-30
-sudo podman rmi pacur/fedora-31
-sudo podman rmi pacur/fedora-32
-sudo podman rmi pacur/fedora-33
-sudo podman rmi pacur/fedora-34
-sudo podman rmi pacur/genkey
-sudo podman rmi pacur/oraclelinux-7
-sudo podman rmi pacur/oraclelinux-8
-sudo podman rmi pacur/ubuntu-precise
-sudo podman rmi pacur/ubuntu-trusty
-sudo podman rmi pacur/ubuntu-vivid
-sudo podman rmi pacur/ubuntu-wily
-sudo podman rmi pacur/ubuntu-xenial
-sudo podman rmi pacur/ubuntu-yakkety
-sudo podman rmi pacur/ubuntu-zesty
-sudo podman rmi pacur/ubuntu-artful
-sudo podman rmi pacur/ubuntu-bionic
-sudo podman rmi pacur/ubuntu-cosmic
-sudo podman rmi pacur/ubuntu-disco
-sudo podman rmi pacur/ubuntu-eoan
-sudo podman rmi pacur/ubuntu-focal
-sudo podman rmi pacur/ubuntu-groovy
-sudo podman rmi pacur/ubuntu-hirsute
-sudo podman rmi archlinux
-sudo podman rmi base/archlinux
-sudo podman rmi archlinux/base
-sudo podman rmi amazonlinux:2016.09
-sudo podman rmi amazonlinux:2017.03
-sudo podman rmi amazonlinux:2017.09
-sudo podman rmi amazonlinux:2017.12
-sudo podman rmi amazonlinux:1
-sudo podman rmi amazonlinux:2
-sudo podman rmi centos:6
-sudo podman rmi centos:7
-sudo podman rmi centos:8
-sudo podman rmi debian:jessie
-sudo podman rmi debian:stretch
-sudo podman rmi debian:wheezy
-sudo podman rmi debian:buster
-sudo podman rmi fedora:21
-sudo podman rmi fedora:22
-sudo podman rmi fedora:23
-sudo podman rmi fedora:24
-sudo podman rmi fedora:25
-sudo podman rmi fedora:26
-sudo podman rmi fedora:27
-sudo podman rmi fedora:28
-sudo podman rmi fedora:29
-sudo podman rmi fedora:30
-sudo podman rmi fedora:31
-sudo podman rmi fedora:32
-sudo podman rmi fedora:33
-sudo podman rmi fedora:34
-sudo podman rmi oraclelinux:7
-sudo podman rmi oraclelinux:8
-sudo podman rmi ubuntu:precise
-sudo podman rmi ubuntu:trusty
-sudo podman rmi ubuntu:vivid
-sudo podman rmi ubuntu:wily
-sudo podman rmi ubuntu:xenial
-sudo podman rmi ubuntu:yakkety
-sudo podman rmi ubuntu:zesty
-sudo podman rmi ubuntu:artful
-sudo podman rmi ubuntu:bionic
-sudo podman rmi ubuntu:cosmic
-sudo podman rmi ubuntu:disco
-sudo podman rmi ubuntu:eoan
-sudo podman rmi ubuntu:focal
-sudo podman rmi ubuntu:groovy
-sudo podman rmi ubuntu:hirsute
+podman rmi pacur/archlinux
+podman rmi pacur/amazonlinux-2016.09
+podman rmi pacur/amazonlinux-2017.03
+podman rmi pacur/amazonlinux-2017.09
+podman rmi pacur/amazonlinux-2017.12
+podman rmi pacur/amazonlinux-1
+podman rmi pacur/amazonlinux-2
+podman rmi pacur/centos-6
+podman rmi pacur/centos-7
+podman rmi pacur/centos-8
+podman rmi pacur/debian-jessie
+podman rmi pacur/debian-stretch
+podman rmi pacur/debian-wheezy
+podman rmi pacur/debian-buster
+podman rmi pacur/fedora-21
+podman rmi pacur/fedora-22
+podman rmi pacur/fedora-23
+podman rmi pacur/fedora-24
+podman rmi pacur/fedora-25
+podman rmi pacur/fedora-26
+podman rmi pacur/fedora-27
+podman rmi pacur/fedora-28
+podman rmi pacur/fedora-29
+podman rmi pacur/fedora-30
+podman rmi pacur/fedora-31
+podman rmi pacur/fedora-32
+podman rmi pacur/fedora-33
+podman rmi pacur/fedora-34
+podman rmi pacur/genkey
+podman rmi pacur/oraclelinux-7
+podman rmi pacur/oraclelinux-8
+podman rmi pacur/ubuntu-precise
+podman rmi pacur/ubuntu-trusty
+podman rmi pacur/ubuntu-vivid
+podman rmi pacur/ubuntu-wily
+podman rmi pacur/ubuntu-xenial
+podman rmi pacur/ubuntu-yakkety
+podman rmi pacur/ubuntu-zesty
+podman rmi pacur/ubuntu-artful
+podman rmi pacur/ubuntu-bionic
+podman rmi pacur/ubuntu-cosmic
+podman rmi pacur/ubuntu-disco
+podman rmi pacur/ubuntu-eoan
+podman rmi pacur/ubuntu-focal
+podman rmi pacur/ubuntu-groovy
+podman rmi pacur/ubuntu-hirsute
+podman rmi archlinux
+podman rmi base/archlinux
+podman rmi archlinux/base
+podman rmi amazonlinux:2016.09
+podman rmi amazonlinux:2017.03
+podman rmi amazonlinux:2017.09
+podman rmi amazonlinux:2017.12
+podman rmi amazonlinux:1
+podman rmi amazonlinux:2
+podman rmi centos:6
+podman rmi centos:7
+podman rmi centos:8
+podman rmi debian:jessie
+podman rmi debian:stretch
+podman rmi debian:wheezy
+podman rmi debian:buster
+podman rmi fedora:21
+podman rmi fedora:22
+podman rmi fedora:23
+podman rmi fedora:24
+podman rmi fedora:25
+podman rmi fedora:26
+podman rmi fedora:27
+podman rmi fedora:28
+podman rmi fedora:29
+podman rmi fedora:30
+podman rmi fedora:31
+podman rmi fedora:32
+podman rmi fedora:33
+podman rmi fedora:34
+podman rmi oraclelinux:7
+podman rmi oraclelinux:8
+podman rmi ubuntu:precise
+podman rmi ubuntu:trusty
+podman rmi ubuntu:vivid
+podman rmi ubuntu:wily
+podman rmi ubuntu:xenial
+podman rmi ubuntu:yakkety
+podman rmi ubuntu:zesty
+podman rmi ubuntu:artful
+podman rmi ubuntu:bionic
+podman rmi ubuntu:cosmic
+podman rmi ubuntu:disco
+podman rmi ubuntu:eoan
+podman rmi ubuntu:focal
+podman rmi ubuntu:groovy
+podman rmi ubuntu:hirsute
 
-sudo podman rmi $(sudo podman images -q -f dangling=true)
+podman rmi $(podman images -q -f dangling=true)
